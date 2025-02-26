@@ -1,0 +1,17 @@
+﻿@model ProjetoLanches.Models.ViewModels.LancheListViewModel
+
+<div>
+    <h2>Todos os Lanches</h2>
+    <h5>Data e Hora @ViewData["DataHora"]</h5>
+    <h5>Total de lanches = <strong>@ViewBag.totalLanches</strong></h5>
+    <hr />
+</div>
+
+<div class="container">
+    <div class="row">
+        @foreach (var lanche in Model.Lanches)
+        {
+            <partial name="_LanchesResumo" for="@lanche"></partial>
+        }
+    </div>
+</div>
