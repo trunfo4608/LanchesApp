@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjetoLanches")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa2a4f724f85ba5ea576020ac4f4af1d473e378c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d39b68f67330c1f4c2efc567ffbf062f7f724f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjetoLanches")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjetoLanches")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

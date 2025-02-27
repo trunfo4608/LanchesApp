@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\wwwroot\\images\\Envelope-icon24.png",
+      "PackagePath": "staticwebassets\\images\\Envelope-icon24.png"
+    },
+    {
       "Id": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\wwwroot\\images\\Full-Cart-icon.png",
       "PackagePath": "staticwebassets\\images\\Full-Cart-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\wwwroot\\images\\Home-iconred.png",
+      "PackagePath": "staticwebassets\\images\\Home-iconred.png"
     },
     {
       "Id": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\wwwroot\\images\\carousel11.jpg",
@@ -29,8 +37,24 @@
       "PackagePath": "staticwebassets\\images\\carousel13.jpg"
     },
     {
+      "Id": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\wwwroot\\images\\carrinhoCompra.jpg",
+      "PackagePath": "staticwebassets\\images\\carrinhoCompra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\wwwroot\\images\\cart-5-16.ico",
+      "PackagePath": "staticwebassets\\images\\cart-5-16.ico"
+    },
+    {
       "Id": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\wwwroot\\images\\delete.png",
       "PackagePath": "staticwebassets\\images\\delete.png"
+    },
+    {
+      "Id": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\wwwroot\\images\\faleconosco1.jpg",
+      "PackagePath": "staticwebassets\\images\\faleconosco1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\wwwroot\\images\\phone-app-icon.png",
+      "PackagePath": "staticwebassets\\images\\phone-app-icon.png"
     },
     {
       "Id": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\wwwroot\\images\\remove.ico",
