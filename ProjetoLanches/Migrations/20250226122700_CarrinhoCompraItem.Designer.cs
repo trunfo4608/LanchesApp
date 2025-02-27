@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProjetoLanches.Context;
 
@@ -10,9 +11,10 @@ using ProjetoLanches.Context;
 namespace ProjetoLanches.Migrations
 {
     [DbContext(typeof(ProjetoLanchesContext))]
-    partial class ProjetoLanchesContextModelSnapshot : ModelSnapshot
+    [Migration("20250226122700_CarrinhoCompraItem")]
+    partial class CarrinhoCompraItem
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -44,7 +46,7 @@ namespace ProjetoLanches.Migrations
 
                     b.HasIndex("LancheId");
 
-                    b.ToTable("CarrinhoCompraItems");
+                    b.ToTable("carrinhoCompraItems");
                 });
 
             modelBuilder.Entity("ProjetoLanches.Models.Categoria", b =>

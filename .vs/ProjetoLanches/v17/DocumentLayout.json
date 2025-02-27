@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|c:\\users\\trunf\\source\\repos\\projetolanches\\projetolanches\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|solutionrelative:projetolanches\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|c:\\users\\trunf\\source\\repos\\projetolanches\\projetolanches\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|solutionrelative:projetolanches\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|c:\\users\\trunf\\source\\repos\\projetolanches\\projetolanches\\controllers\\carrinhocompracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|solutionrelative:projetolanches\\controllers\\carrinhocompracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 102,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +43,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjetoLanches\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProjetoLanches\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T22:38:12.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProjetoLanches\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProjetoLanches\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAlwBMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T22:28:55.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarrinhoCompraController.cs",
+              "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Controllers\\CarrinhoCompraController.cs",
+              "RelativeDocumentMoniker": "ProjetoLanches\\Controllers\\CarrinhoCompraController.cs",
+              "ToolTip": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Controllers\\CarrinhoCompraController.cs",
+              "RelativeToolTip": "ProjetoLanches\\Controllers\\CarrinhoCompraController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwDEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T21:28:46.5Z",
+              "EditorCaption": ""
             }
           ]
         }

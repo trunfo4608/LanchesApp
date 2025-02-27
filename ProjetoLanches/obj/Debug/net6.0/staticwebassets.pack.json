@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\wwwroot\\images\\Full-Cart-icon.png",
+      "PackagePath": "staticwebassets\\images\\Full-Cart-icon.png"
+    },
+    {
       "Id": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\wwwroot\\images\\carousel11.jpg",
       "PackagePath": "staticwebassets\\images\\carousel11.jpg"
     },
@@ -23,6 +27,14 @@
     {
       "Id": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\wwwroot\\images\\carousel13.jpg",
       "PackagePath": "staticwebassets\\images\\carousel13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\wwwroot\\images\\delete.png",
+      "PackagePath": "staticwebassets\\images\\delete.png"
+    },
+    {
+      "Id": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\wwwroot\\images\\remove.ico",
+      "PackagePath": "staticwebassets\\images\\remove.ico"
     },
     {
       "Id": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\wwwroot\\js\\site.js",

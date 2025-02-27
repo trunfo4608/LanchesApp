@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using ProjetoLanches.Context;
+using ProjetoLanches.Models;
 using ProjetoLanches.Repositories;
 using ProjetoLanches.Repositories.Interfaces;
 
@@ -13,9 +14,16 @@ builder.Services.AddDbContext<ProjetoLanchesContext>(options=>
 
 builder.Services.AddTransient<ICategoriaRepository, CategoriaRepository>();
 builder.Services.AddTransient<ILancheRepository, LancheRepository>();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Add cache 
+builder.Services.AddMemoryCache();
+builder.Services.AddSession();
+
 
 var app = builder.Build();
 
@@ -31,6 +39,10 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+// usando session
+app.UseSession();
+
 
 app.UseAuthorization();
 
