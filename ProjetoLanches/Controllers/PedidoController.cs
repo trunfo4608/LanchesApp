@@ -45,7 +45,7 @@ namespace ProjetoLanches.Controllers
             pedido.TotalItensPedido = totalItemsPedidos;
             pedido.PedidoTotal = precoTotalPedido;
 
-            if (ModelState.IsValid) 
+            if (!ModelState.IsValid) 
             {
                 _pedidoRepository.CriarPedido(pedido);
 
