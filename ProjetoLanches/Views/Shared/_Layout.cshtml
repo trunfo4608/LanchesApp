@@ -17,14 +17,8 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            @await (Component.InvokeAsync("CategoriaMenu"))
-                        </li>
-                        <li class="nav-item">
-                             @await(Component.InvokeAsync("CarrinhoCompraResumo"))
-                        </li>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
@@ -33,7 +27,23 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-controller="Contato" asp-action="Index">Contato</a>
-                        </li>    
+                        </li>
+                        <li class="nav-item">
+
+                        </li>
+                        <li class="nav-item ms-3">
+                            @await (Component.InvokeAsync("CategoriaMenu"))
+                        </li>
+                        <li class="nav-item ms-3">
+                            <form class="navbar-form navbar-right" asp-controller="Lanche" asp-action="Search" method="get">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Procurar produto" name="searchString" value="@ViewData["searchString"]" />
+                                </div>
+                            </form>
+                        </li>
+                        <li class="nav-item ms-2">
+                             @await (Component.InvokeAsync("CarrinhoCompraResumo"))
+                        </li>
                     </ul>
                 </div>
             </div>

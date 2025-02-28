@@ -53,5 +53,45 @@ namespace ProjetoLanches.Controllers
 
             return View(lancheDetails);
         }
+
+
+        public ViewResult Search(string searchString)
+        {
+            IEnumerable<Lanche> lanches;
+            string categoriaAtual = string.Empty;
+
+            if (string.IsNullOrEmpty(searchString))
+            {
+                lanches = _lancheRepository.Lanches.OrderBy(p => p.Id);
+                categoriaAtual = "Todos os lanches";
+            }
+            else
+            {
+                lanches = _lancheRepository.Lanches
+                            .Where(p => p.Nome.ToLower().Contains(searchString.ToLower()));
+
+                if (lanches.Any())
+                {
+                    categoriaAtual = "lanches";
+                }
+                else
+                {
+                    categoriaAtual = "Nenhum lanche foi encontrado";
+                }
+   
+            }
+
+            ViewData["DataHora"] = DateTime.Now;
+
+            var totalLanches = lanches.Count();
+
+            ViewBag.totalLanches = totalLanches;
+
+            return View("~/Views/Lanche/List.cshtml", new LancheListViewModel
+            {
+                Lanches = lanches,
+                CategoriaAtual = categoriaAtual
+            });
+        }
     }
 }

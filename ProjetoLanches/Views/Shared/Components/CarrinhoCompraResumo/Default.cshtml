@@ -1,12 +1,16 @@
 ﻿@model ProjetoLanches.Models.ViewModels.CarrinhoCompraViewModel
 
-@if(Model.CarrinhoCompra.CarrinhoCompraItems.Count > 0)
+@if (Model.CarrinhoCompra.CarrinhoCompraItems.Count > 0)
 {
-    <a asp-controller="CarrinhoCompra" asp-action="Index">
-        <span><img src="~/images/cart-5-16.ico"> </span>
-        <span style="color:white">
-            @Model.CarrinhoCompra.CarrinhoCompraItems.Count
-        </span>
-    </a>
+      <div>
+        <a asp-controller="CarrinhoCompra" asp-action="Index" style="text-decoration: none;" class="mt-3">
+            <span>
+                <img src="~/images/cart-5-16.ico" width="30" height="35">
+            </span>
+            <span style="color:white;font-size:15px;margin-top:auto">
+                <strong>@Model.CarrinhoCompra.CarrinhoCompraItems.Count</strong>
+            </span>
+        </a>
+    </div>
 }
 
