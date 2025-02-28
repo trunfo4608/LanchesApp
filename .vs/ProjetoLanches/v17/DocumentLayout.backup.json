@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|c:\\users\\trunf\\source\\repos\\projetolanches\\projetolanches\\controllers\\lanchecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|solutionrelative:projetolanches\\controllers\\lanchecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|c:\\users\\trunf\\source\\repos\\projetolanches\\projetolanches\\views\\shared\\_lanchesresumo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|solutionrelative:projetolanches\\views\\shared\\_lanchesresumo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|c:\\users\\trunf\\source\\repos\\projetolanches\\projetolanches\\views\\lanche\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|solutionrelative:projetolanches\\views\\lanche\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|c:\\users\\trunf\\source\\repos\\projetolanches\\projetolanches\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|solutionrelative:projetolanches\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|c:\\users\\trunf\\source\\repos\\projetolanches\\projetolanches\\context\\projetolanchescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|solutionrelative:projetolanches\\context\\projetolanchescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|c:\\users\\trunf\\source\\repos\\projetolanches\\projetolanches\\models\\carrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|solutionrelative:projetolanches\\models\\carrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|c:\\users\\trunf\\source\\repos\\projetolanches\\projetolanches\\repositories\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|solutionrelative:projetolanches\\repositories\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|c:\\users\\trunf\\source\\repos\\projetolanches\\projetolanches\\repositories\\interfaces\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|solutionrelative:projetolanches\\repositories\\interfaces\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|c:\\users\\trunf\\source\\repos\\projetolanches\\projetolanches\\models\\lanche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5D2EE7-48A9-4437-92DA-0E65530F4081}|ProjetoLanches\\ProjetoLanches.csproj|solutionrelative:projetolanches\\models\\lanche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 102,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,54 +58,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_LanchesResumo.cshtml",
-              "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Views\\Shared\\_LanchesResumo.cshtml",
-              "RelativeDocumentMoniker": "ProjetoLanches\\Views\\Shared\\_LanchesResumo.cshtml",
-              "ToolTip": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Views\\Shared\\_LanchesResumo.cshtml",
-              "RelativeToolTip": "ProjetoLanches\\Views\\Shared\\_LanchesResumo.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T21:23:21.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Views\\Lanche\\List.cshtml",
-              "RelativeDocumentMoniker": "ProjetoLanches\\Views\\Lanche\\List.cshtml",
-              "ToolTip": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Views\\Lanche\\List.cshtml",
-              "RelativeToolTip": "ProjetoLanches\\Views\\Lanche\\List.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T21:22:34.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LancheController.cs",
-              "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Controllers\\LancheController.cs",
-              "RelativeDocumentMoniker": "ProjetoLanches\\Controllers\\LancheController.cs",
-              "ToolTip": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Controllers\\LancheController.cs",
-              "RelativeToolTip": "ProjetoLanches\\Controllers\\LancheController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T21:16:02.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Program.cs",
               "RelativeDocumentMoniker": "ProjetoLanches\\Program.cs",
               "ToolTip": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Program.cs",
               "RelativeToolTip": "ProjetoLanches\\Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADQAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T21:14:32.992Z",
+              "WhenOpened": "2025-02-28T00:20:43.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarrinhoCompra.cs",
+              "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Models\\CarrinhoCompra.cs",
+              "RelativeDocumentMoniker": "ProjetoLanches\\Models\\CarrinhoCompra.cs",
+              "ToolTip": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Models\\CarrinhoCompra.cs",
+              "RelativeToolTip": "ProjetoLanches\\Models\\CarrinhoCompra.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T00:19:33.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PedidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Repositories\\PedidoRepository.cs",
+              "RelativeDocumentMoniker": "ProjetoLanches\\Repositories\\PedidoRepository.cs",
+              "ToolTip": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Repositories\\PedidoRepository.cs",
+              "RelativeToolTip": "ProjetoLanches\\Repositories\\PedidoRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T00:00:39.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPedidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Repositories\\Interfaces\\IPedidoRepository.cs",
+              "RelativeDocumentMoniker": "ProjetoLanches\\Repositories\\Interfaces\\IPedidoRepository.cs",
+              "ToolTip": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Repositories\\Interfaces\\IPedidoRepository.cs",
+              "RelativeToolTip": "ProjetoLanches\\Repositories\\Interfaces\\IPedidoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T23:58:55.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjetoLanchesContext.cs",
+              "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Context\\ProjetoLanchesContext.cs",
+              "RelativeDocumentMoniker": "ProjetoLanches\\Context\\ProjetoLanchesContext.cs",
+              "ToolTip": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Context\\ProjetoLanchesContext.cs",
+              "RelativeToolTip": "ProjetoLanches\\Context\\ProjetoLanchesContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T22:54:19.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Lanche.cs",
+              "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Models\\Lanche.cs",
+              "RelativeDocumentMoniker": "ProjetoLanches\\Models\\Lanche.cs",
+              "ToolTip": "C:\\Users\\trunf\\source\\repos\\ProjetoLanches\\ProjetoLanches\\Models\\Lanche.cs",
+              "RelativeToolTip": "ProjetoLanches\\Models\\Lanche.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T22:53:13.153Z",
               "EditorCaption": ""
             }
           ]

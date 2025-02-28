@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProjetoLanches.Context;
 
@@ -11,9 +12,10 @@ using ProjetoLanches.Context;
 namespace ProjetoLanches.Migrations
 {
     [DbContext(typeof(ProjetoLanchesContext))]
-    partial class ProjetoLanchesContextModelSnapshot : ModelSnapshot
+    [Migration("20250227225701_PedidoDetalhe")]
+    partial class PedidoDetalhe
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -133,8 +135,8 @@ namespace ProjetoLanches.Migrations
 
                     b.Property<string>("Cep")
                         .IsRequired()
-                        .HasMaxLength(10)
-                        .HasColumnType("nvarchar(10)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("Cidade")
                         .IsRequired()
